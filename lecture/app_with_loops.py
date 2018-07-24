@@ -7,8 +7,7 @@ def hello_world():
     pets = ["Rocky Rooster", "Lauren Llama", "Alice Alpaca"]
     
     return render_template("hello_loop.html",
-    	pets=pets,
-    	no_pets = True)
+    	pets=pets)
 
 if __name__ == '__main__':
    app.run(debug = True)
