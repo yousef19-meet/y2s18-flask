@@ -16,7 +16,7 @@ printed in your browser.
 
 ### Part 2: Adding a Template!
 
-Add your first HTML template inside the `templates` directory.
+Add your first HTML template in `templates/index.html`.
 
 Now, use the `render_template` function and 
 print your favorite sport as a heading, using a h1 tag.
@@ -25,16 +25,17 @@ best sport.
 
 ### Part 3: Adding CSS
 
-Create a new file `style.css` in the directory.
-Do you remember where this file goes?
+Add a new rule in `static/style.css` to make all headings in
+your website red.
 
-Import this file in your HTML template and use it to make
-the heading of your website red. If you have extra time, build a color scheme
-for your website.
+Then, import this file in your HTML template. Open your HTML page
+in the browser, to check that your heading is red.
+
+If you have extra time, build a color scheme for your website.
 
 ### Part 4: Using Loops and Conditionals!
 
-- Now, add a for loop into your template, to print a list
+- First, add a for loop into your template, to print a list
 of your favorite players. This list should be defined
 inside your Python `home_page` function.
 
@@ -46,8 +47,18 @@ render the website, as before.
 the best sport.
 
 
-### PART 5: Extras
+### Part 5: Extras
 
-Make your website prettier - this can include
-finding more complex templates online, or adding some more CSS
-tricks of your own!
+If you finish any of the previous parts early, you can work
+on some extra tasks, including:
+- Finding and importing more complex templates from W3
+- Organize your website using divs
+- Add a header to your website, and make sure to use margins and padding
+to separate the header from the content on the website
+- Adding a sidebar to your website, that doesn't move when you scroll
+- Adding images to your website. The list of images should be defined
+in the `home_page` function in `app.py`.
+- Add a table to the website, with pictures and quotes from the most
+memorable players or games. 
+
+
