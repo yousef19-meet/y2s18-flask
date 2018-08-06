@@ -42,7 +42,7 @@ inside your Python `home_page` function.
 should be defined in your Python file, is True. If it is True,
 render the website, as before.
 
--If it's False, just print the paragraph explaining why you think that it's
+- If it's False, just print the paragraph explaining why you think that it's
 the best sport.
 
 
