@@ -1,20 +1,23 @@
 ### Y2 2018 Summer: Basic Flask Lab
 
-Welcome to the Python review lab! Please read all the instructions so you don't
+Welcome to the Intro to Flask lab! Please read all the instructions so you don't
 get lost halfway through, but definitely feel free to ask for help if you
 get stuck. Good luck, and have fun!
 
 Throughout this lab, you should be editing app.py.
 
-### PART 1
+### Part 1: First web page!
 
-Edit the `home_page` function,, using just Python, to print your favorite sport. A stub for this function can be found in
-app.py. Make sure you run `python app.py` to see your 
-favorite sport printed.
+Edit the `home_page` function, using just Python, to print your favorite sport. A stub for this function can be found in
+app.py.
 
-### PART 2
+Make sure you run `python app.py` to see your favorite sport printed in your browser.
 
-Add your first HTML template inside the `templates` directory. Now, print your favorite sport as a heading, and
+### Part 2: 
+
+Add your first HTML template inside the `templates` directory
+
+Now, print your favorite sport as a heading, and
 write a paragraph about why it's clearly the best sport.
 
 ### PART 3
