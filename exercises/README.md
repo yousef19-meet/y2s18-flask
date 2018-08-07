@@ -26,8 +26,8 @@ HTML page in the browser!
 
 ### Part 3: Adding CSS
 
-Add a new rule in `static/style.css` to make all headings in
-your website red.
+Add a new rule in `static/style.css` to make the background color in
+your website green.
 
 Then, import this file in your HTML template. Open your HTML page
 in the browser, to check that your heading is red.
