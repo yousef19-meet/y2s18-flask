@@ -30,7 +30,7 @@ Add a new rule in `static/style.css` to make the background color in
 your website green.
 
 Then, import this file in your HTML template. Open your HTML page
-in the browser, to check that your heading is red.
+in the browser, to check that the background is green.
 
 If you have extra time, build a color scheme for your website.
 
