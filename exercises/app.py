@@ -3,9 +3,15 @@ app = Flask(__name__)
 #part 1
 @app.route('/')
 def home_page():
-    x= "get off my lawn bish... but /sport and get outta here"
-    print(x)
-    return x
+    # x= "get off my lawn bish... but /sport and get outta here"
+    # print(x)
+    songs=["home-passenger", "let her go- passenger", "bohemian rapsody- queen"]
+    return render_template(
+    "index.html",
+    songs=songs,
+    likes_same_singer=True)
+
+    
 #############
 #part 2
 @app.route('/sport') 
@@ -17,6 +23,9 @@ def favorite_sport():
 def hello_world():
     return render_template(
 "index.html")
+#############
+#part 
+
 
 
 

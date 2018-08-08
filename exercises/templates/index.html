@@ -9,7 +9,17 @@
 </head>
 <body>
 <h1> tennis </h1>
-<p> becasue its fast paced and it needs allot of running and I love running</p>
+
+{%if  likes_same_singer== True %}
+    <p>we like the same singers :D</p>
+{%else%}
+    <p>we dont like the same singers maybe you can listen to them :3</p>
+<ul>
+    {% for songs in songs %}
+    <li> {{songs}} </li>
+    {% endfor %}
+{%endif%}
+</ul>
 
 </body>
 
